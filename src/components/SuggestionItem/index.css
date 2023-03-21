@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 19px;
+}
+.arrow-image {
+  height: 25px;
+  align-self: center;
+}
+@media screen and (max-width: 576px) {
+  .para {
+    font-size: 13px;
+  }
+}
